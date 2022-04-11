@@ -1,0 +1,61 @@
+.title{
+    font-family: Merri;
+    font-size: 26px;
+    margin: 7px 0 39px;
+}
+.subtitle{
+    font-family: Lato;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.bg-flex{
+    width: 400px;
+    height: 330px;
+}
+.content-img{
+    background-color: #F7FAFC;
+    width: 50%;
+    display: grid;
+    place-items: center;
+}
+.container-form{
+    padding: 213px 177px 231px 193px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 11px;
+    gap: 11px;
+}
+.form-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.link{
+    font-size: 14px;
+}
+.form input{
+    border: 1px solid #E8E8E8;
+    padding: 17px 190px 16px 20px;
+    border-radius: 5px;
+}
+.container-btn{
+    display: flex;
+    margin-top: 26px;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+.subtitle-cad{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
